@@ -10,7 +10,6 @@ public class TestFanApp {
         /**
          * Main method that tests creation of Fan class constructors that are defined in separate file Fan.java
          */
-        System.out.println("hello");
 
         //test default fan scenario
         Fan defaultFan = new Fan();

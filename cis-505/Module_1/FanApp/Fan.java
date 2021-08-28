@@ -5,13 +5,13 @@ Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: Compre
 */
 
 public class Fan {
-    //class constants
+    //constants
     final static int STOPPED = 0;
     final static int SLOW = 1;
     final static int MEDIUM = 2;
     final static int FAST = 3;
 
-    //class data fields
+    //non-constant data fields
     private int speed = STOPPED;
     private boolean on = false;
     private double radius = 6;
@@ -61,13 +61,13 @@ public class Fan {
         this.color = fanColor;
     }//end constructor
 
-    //override of ToString()
+    //override of toString() to verify object contents for testing in TestFanApp.java
     public String toString(){
         if (getOn() == true) {
             return "The fan speed is set to " + getSpeed() + " with a color of " + getColor() + " and a radius of " + getRadius();
         }
-        else {
+        else {//getOn() returned false, so the fan is off
             return "The fan is " + getColor() + " with a radius of " + getRadius() + " and the fan is OFF";
         }
-    }//end toString override
+    }//end toString() override
 }//end Fan
