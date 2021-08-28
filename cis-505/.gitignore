@@ -1,0 +1,17 @@
+## OS X
+.DS_Store
+
+## VS CODE IDE
+.vscode
+.code-workspace
+
+## GENERAL FILES
+*.class
+*.jar
+*.war
+*.log
+/target/
+hs_err_pid*
+.project
+.classpath
+.impl
