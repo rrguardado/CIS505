@@ -17,7 +17,7 @@ public class Student {
 
     }
 
-    //constructor to set composer values
+    //constructor to set student values
     public Student (String stuFirstName, String stuLastName, String courseTitle, String grade) {
         this.firstName = stuFirstName;
         this.lastName = stuLastName;
